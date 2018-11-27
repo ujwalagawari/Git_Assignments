@@ -1,0 +1,37 @@
+git init
+git status
+
+Adding a file:
+git commit -am "Adds First file"
+
+Rename a file
+git mv first.txt new_first.txt
+
+to show available branch
+git branch
+
+create new branch
+git checkout -b new_branch
+
+Add features in new_first text file and commit
+git commit -am "Adds new Features"
+
+Check Difference between two branch
+git diff master new_branch
+
+Check branch mearged or not
+git branch --mereged
+
+Switch the branch
+git checkout master
+
+check checksum
+git log
+
+mergebranches
+git merge new_branch
+
+check again checksum of master branch and also head head pointer
+git log
+
+
